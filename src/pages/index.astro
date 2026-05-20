@@ -95,8 +95,10 @@ const featured = posts.find((post) => post.featured) || posts[0];
     align-items: center;
     padding: clamp(58px, 8vw, 110px) clamp(18px, 5vw, 64px) clamp(42px, 6vw, 80px);
     background:
-      linear-gradient(135deg, #0f172a 0%, #1e1b4b 40%, #111827 100%);
-    color: #fff;
+      radial-gradient(600px 600px at 80% 20%, rgba(245, 158, 11, 0.15), transparent),
+      radial-gradient(500px 500px at 10% 90%, rgba(236, 72, 153, 0.12), transparent),
+      linear-gradient(135deg, #0c0a1a 0%, #14122a 40%, #0c0a1a 100%);
+    color: #fafaf9;
   }
 
   .hero-copy {
@@ -111,14 +113,15 @@ const featured = posts.find((post) => post.featured) || posts[0];
     display: grid;
     gap: 12px;
     padding: 18px;
-    border: 1px solid rgba(17, 24, 39, 0.14);
+    border: 1px solid rgba(245, 158, 11, 0.2);
     border-radius: 8px;
-    background: rgba(255, 255, 255, 0.92);
-    box-shadow: var(--shadow);
+    background: rgba(20, 18, 42, 0.7);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 18px 50px rgba(12, 10, 26, 0.4);
   }
 
   .hero-panel div {
-    border-bottom: 1px solid #d9dee8;
+    border-bottom: 1px solid rgba(245, 158, 11, 0.2);
     padding: 14px;
   }
 
@@ -128,7 +131,7 @@ const featured = posts.find((post) => post.featured) || posts[0];
 
   .hero-panel span {
     display: block;
-    color: #5c6676;
+    color: #f59e0b;
     font-size: 13px;
     font-weight: 800;
   }
@@ -136,7 +139,7 @@ const featured = posts.find((post) => post.featured) || posts[0];
   .hero-panel strong {
     display: block;
     margin-top: 5px;
-    color: #101828;
+    color: #fafaf9;
     font-size: 20px;
     line-height: 1.2;
   }
@@ -153,14 +156,14 @@ const featured = posts.find((post) => post.featured) || posts[0];
   }
 
   .history-list p {
-    border-left: 4px solid #06b6d4;
+    border-left: 4px solid #f59e0b;
     padding-left: 16px;
   }
 
   .hero .button {
-    background: var(--accent);
-    border-color: var(--accent);
-    color: #0f172a;
+    background: linear-gradient(135deg, #f59e0b, #ec4899);
+    border-color: transparent;
+    color: #0c0a1a;
   }
 
   .hero .button.secondary {
