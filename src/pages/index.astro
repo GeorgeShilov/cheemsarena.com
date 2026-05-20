@@ -9,16 +9,17 @@ const posts = await getBlogPosts();
 const featured = posts.find((post) => post.featured) || posts[0];
 ---
 
-<Layout title="Cheems Arena / Meme gaming arena" description={site.description}>
+<Layout title="Cheems Arena / Trading card game ruled by Shiba" description={site.description}>
   <ArchiveNotice />
   <section class="hero">
     <div class="hero-copy">
-      <p class="eyebrow">Cheems Arena / Meme gaming arena</p>
-      <h1>Where memes meet the arena.</h1>
+      <p class="eyebrow">Cheems Arena / Trading card game ruled by Shiba</p>
+      <h1>Have fun. Collect. Earn.</h1>
       <p class="lead">
-        Cheems Arena is the home for meme coin communities to compete, earn, and
-        celebrate crypto culture. Tournaments, leaderboards, and on-chain rewards
-        for the most based players.
+        The first trading card game ruled by Shiba. Carved out of stone and marble
+        by the shiba ancients, Cheems Arena is the violent hub that connects all
+        elements of the Cheemsrealm. Build your deck, battle for glory, and own
+        every card as a Solana NFT.
       </p>
       <div class="button-row">
         <a class="button" href="/gateway/">Enter Arena Hub</a>
@@ -28,11 +29,11 @@ const featured = posts.find((post) => post.featured) || posts[0];
     <div class="hero-panel" aria-label="Cheems Arena signal summary">
       <div>
         <span>Core view</span>
-        <strong>Meme gaming arena</strong>
+        <strong>Blockchain TCG on Solana</strong>
       </div>
       <div>
         <span>Signals</span>
-        <strong>Tournaments, community, rewards</strong>
+        <strong>350+ cards, NFT ownership, P2E</strong>
       </div>
       <div>
         <span>Launch stack</span>
@@ -45,7 +46,7 @@ const featured = posts.find((post) => post.featured) || posts[0];
     <div class="section-inner split">
       <div>
         <p class="eyebrow">Why it exists</p>
-        <h2>Meme coin communities need more than a chart to rally around.</h2>
+        <h2>Legends are born in the Cheemsrealm. Will you howl in victory or whimper in defeat?</h2>
       </div>
       <div class="history-list">
         {site.launchContext.map((item) => <p>{item}</p>)}
@@ -59,16 +60,16 @@ const featured = posts.find((post) => post.featured) || posts[0];
       <h2>One arena for the culture-driven first mile of growth.</h2>
       <div class="grid">
         <article class="card">
-          <h3>Tournament engine</h3>
-          <p>Run brackets, prediction markets, and community events with on-chain verified results.</p>
+          <h3>The Cheemy packs</h3>
+          <p>Four distinct card packs in the marketplace, each yielding 5 cards. Common, Rare, Epic, and Legendary — with specified drops by rarity.</p>
         </article>
         <article class="card">
-          <h3>Reward drops</h3>
-          <p>Turn tournament outcomes into token distributions, NFT badges, and leaderboard prizes.</p>
+          <h3>Real NFT ownership</h3>
+          <p>Every card you purchase or earn is a real Solana NFT. Sell, trade, or hold — your collection is truly yours.</p>
         </article>
         <article class="card">
-          <h3>Meme culture loop</h3>
-          <p>Connect meme contests, community voting, and arena gameplay into one hype cycle.</p>
+          <h3>Fast, low-cost battles</h3>
+          <p>Cheems Arena leverages Solana's scalable blockchain for lightning-fast matches and near-zero transaction fees.</p>
         </article>
       </div>
     </div>

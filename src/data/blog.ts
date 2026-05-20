@@ -15,55 +15,55 @@ export type BlogPost = {
 
 export const fallbackPosts: BlogPost[] = [
   {
-    slug: "how-meme-coins-build-gaming-communities",
-    title: "How Meme Coins Build Gaming Communities",
+    slug: "why-solana-is-the-best-chain-for-trading-card-games",
+    title: "Why Solana Is the Best Chain for Trading Card Games",
     description:
-      "Why the best gaming ecosystems today start with a meme, a token, and a community that actually shows up.",
+      "How Solana's speed, low fees, and NFT infrastructure make it the ideal blockchain for collectible card games like Cheems Arena.",
     pubDate: "2026-05-16",
     author: "Cheems Arena Team",
-    category: "Culture",
-    tags: ["Meme Coins", "Community", "Gaming"],
+    category: "Blockchain",
+    tags: ["Solana", "NFTs", "TCG"],
     featured: true,
     heroImage: "/assets/archive-grid.svg",
     inlineImages: ["/assets/identity-shield.svg", "/assets/wallet-ledger.svg"],
     articleText: `
-      <p>The most resilient gaming communities are not born from whitepapers or venture backing. They start with a meme that people want to belong to, a token that gives them skin in the game, and a platform where that energy can collide in real competition.</p>
-      <p>Cheems Arena was built around this idea: that meme coin holders are already a community, and what they need is a place to prove who is the most based. Tournaments, prediction markets, and leaderboard rewards turn holders into players and spectators into participants.</p>
-      <p>The next wave of crypto-native games will not look like traditional esports. They will look like meme culture with stakes: chaotic, community-driven, and impossible to fake.</p>
+      <p>Trading card games live and die on speed. When a player opens a pack, trades a card, or enters a match, every second of latency kills the mood. Solana solves this with sub-second finality and transaction costs measured in fractions of a cent.</p>
+      <p>Cheems Arena was built on Solana because real ownership should not feel slow. Every card is an NFT that players can list on the marketplace instantly, trade peer-to-peer, or hold as a collectible without worrying about gas fees eating their profits.</p>
+      <p>The next generation of blockchain games will not compromise on gameplay for decentralization. Solana proves you can have both.</p>
     `
   },
   {
-    slug: "community-tournaments-and-on-chain-rewards",
-    title: "Community Tournaments and On-Chain Rewards",
+    slug: "card-rarities-and-the-economy-of-the-cheemsrealm",
+    title: "Card Rarities and the Economy of the Cheemsrealm",
     description:
-      "A practical framework for running community tournaments where participation, skill, and culture all earn on-chain rewards.",
+      "A breakdown of Common, Rare, Epic, and Legendary cards — and how rarity shapes strategy, collection value, and marketplace dynamics.",
     pubDate: "2026-05-15",
     author: "Cheems Arena Team",
     category: "Gaming",
-    tags: ["Tournaments", "Rewards", "Crypto"],
+    tags: ["Rarity", "Economy", "Cards"],
     heroImage: "/assets/archive-grid.svg",
     inlineImages: ["/assets/identity-shield.svg", "/assets/wallet-ledger.svg"],
     articleText: `
-      <p>Running a tournament for a meme coin community is different from traditional esports. The prize pool might be a token airdrop. The qualification criteria might include meme creation, wallet holdings, or social engagement alongside pure skill.</p>
-      <p>Cheems Arena supports this hybrid model by letting organizers define entry rules that mix on-chain verification with gameplay results. Winners can receive tokens, NFT badges, or exclusive roles, all distributed transparently on-chain.</p>
-      <p>The key is keeping the tournament loop tight: announce, compete, reward, and celebrate publicly. Communities that close this loop quickly build momentum that lasts far beyond a single event.</p>
+      <p>In Cheems Arena, rarity is not just a label — it is an economic layer. Common cards form the backbone of every deck, accessible and reliable. Rare cards introduce unique mechanics that shift battle outcomes. Epic cards carry lore and power that define playstyles. Legendary cards are the crown jewels, scarce enough to drive marketplace demand and tournament prestige.</p>
+      <p>Each Cheemy pack contains five cards with drop rates calibrated to sustain a healthy secondary market. Players who understand the rarity curve can build competitive decks without chasing Legendaries, while collectors who hunt the rarest drops find real value in their holdings.</p>
+      <p>The economy of the Cheemsrealm rewards both skill and strategy. Knowing when to hold, trade, or play a card is as important as knowing its stats.</p>
     `
   },
   {
-    slug: "crypto-culture-why-memes-are-the-new-marketing",
-    title: "Crypto Culture: Why Memes Are the New Marketing",
+    slug: "from-meme-to-marketplace-how-cheems-built-an-arena",
+    title: "From Meme to Marketplace: How Cheems Built an Arena",
     description:
-      "How meme-driven marketing outperforms traditional campaigns in crypto, and how projects can ride the wave without getting rekt.",
+      "The story of how a Shiba Inu meme became the foundation for a blockchain trading card game with real NFT ownership and play-to-earn mechanics.",
     pubDate: "2026-05-14",
     author: "Cheems Arena Team",
-    category: "Marketing",
-    tags: ["Memes", "Crypto", "Marketing"],
+    category: "Culture",
+    tags: ["Memes", "Cheems", "NFT Gaming"],
     heroImage: "/assets/archive-grid.svg",
     inlineImages: ["/assets/identity-shield.svg", "/assets/wallet-ledger.svg"],
     articleText: `
-      <p>In crypto, the best marketing does not look like marketing at all. It looks like a meme that makes holders laugh, share, and feel like insiders. The most successful token launches of the past year had one thing in common: a meme that the community could remix endlessly.</p>
-      <p>Cheems Arena embraces this by turning meme culture into competitive content. Meme contests, community-voted brackets, and culture-driven events give communities a reason to create and share beyond simple price speculation.</p>
-      <p>Projects that treat memes as a serious engagement layer, rather than a gimmick, build organic reach that no paid campaign can replicate. The arena is where that engagement turns into gameplay.</p>
+      <p>Cheems started as a meme. The slightly confused Shiba Inu with a speech impediment became a symbol of internet culture — relatable, absurd, and impossible to ignore. But memes that survive evolve, and Cheems evolved into something with stakes.</p>
+      <p>Cheems Arena takes the spirit of the meme and gives it structure: a trading card game where the Shiba ancients carved the arena from stone and marble, where players battle across five elements, and where every card is a real asset on Solana.</p>
+      <p>The best crypto-native projects do not abandon their meme roots — they build on them. Cheems Arena is proof that a meme can become a marketplace, a battleground, and a community all at once.</p>
     `
   }
 ];

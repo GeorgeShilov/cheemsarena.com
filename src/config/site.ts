@@ -4,11 +4,11 @@ export const site = {
   url: import.meta.env.SITE_URL || "https://cheemsarena.com",
   email: "hello@cheemsarena.com",
   description:
-    "Cheems Arena is a meme-powered gaming and crypto arena where communities clash, meme coins moon, and players earn rewards for being based.",
+    "Cheems Arena is the first trading card game ruled by Shiba. Built on Solana with 350+ collectible cards, NFT ownership, and play-to-earn mechanics. Have fun, collect, earn.",
   launchContext: [
-    "Built for meme coin communities that need a home base for tournaments, leaderboards, and culture-driven events.",
-    "Turn community hype into real gameplay: bracket tournaments, prediction markets, and on-chain reward drops.",
-    "Connect your wallet, bring your memes, and compete in the arena where crypto culture meets competitive gaming."
+    "Built for players who want real ownership of their cards. Every card is an NFT on Solana, tradable on the Cheems Arena marketplace.",
+    "Four rarities, five elements, four qualities — plus 350+ cards to collect, battle, and trade across the Cheemsrealm.",
+    "Powered by Solana blockchain for fast, low-cost transactions. Buy Cheemy packs, build your deck, and battle in the arena."
   ]
 };
 
