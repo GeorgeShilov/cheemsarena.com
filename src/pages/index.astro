@@ -36,8 +36,8 @@ const featured = posts.find((post) => post.featured) || posts[0];
         <strong>350+ cards, NFT ownership, P2E</strong>
       </div>
       <div>
-        <span>Launch stack</span>
-        <strong>Cloudflare, Railway, Squidex</strong>
+        <span>Network</span>
+        <strong>Solana</strong>
       </div>
     </div>
   </section>
@@ -155,6 +155,18 @@ const featured = posts.find((post) => post.featured) || posts[0];
   .history-list p {
     border-left: 4px solid #06b6d4;
     padding-left: 16px;
+  }
+
+  .hero .button {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #0f172a;
+  }
+
+  .hero .button.secondary {
+    background: transparent;
+    border-color: rgba(255, 255, 255, 0.6);
+    color: #fff;
   }
 
   @media (max-width: 860px) {
