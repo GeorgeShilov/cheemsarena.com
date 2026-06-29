@@ -15,6 +15,22 @@ export type BlogPost = {
 
 export const fallbackPosts: BlogPost[] = [
   {
+    slug: "test-slug",
+    title: "Test Article",
+    description: "Test description",
+    pubDate: "2026-06-01",
+    author: "Team",
+    category: "General",
+    tags: [],
+    featured: false,
+    heroImage: "/assets/archive-grid.svg",
+    inlineImages: [],
+    referenceUrl: "https://example.com/",
+    articleText: `
+      <p>Test <a href='https://example.com/'>anchor</a></p>
+    `
+  },
+  {
     slug: "why-solana-is-the-best-chain-for-trading-card-games",
     title: "Why Solana Is the Best Chain for Trading Card Games",
     description:
