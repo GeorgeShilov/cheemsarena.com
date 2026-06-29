@@ -19,7 +19,12 @@ const types = {
 };
 
 function resolvePath(url) {
-  const pathname = decodeURIComponent(new URL(url, "http://localhost").pathname);
+  let pathname;
+  try {
+    pathname = decodeURIComponent(new URL(url || "/", "http://localhost").pathname);
+  } catch {
+    return join(root, "404.html");
+  }
   const clean = normalize(pathname).replace(/^(\.\.[/\\])+/, "");
   const direct = join(root, clean);
   const index = join(root, clean, "index.html");
