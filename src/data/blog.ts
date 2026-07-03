@@ -23,7 +23,7 @@ export const fallbackPosts: BlogPost[] = [
     category: "General",
     tags: [],
     featured: false,
-    heroImage: "/assets/archive-grid.svg",
+    heroImage: "https://v3b.fal.media/files/b/0aa0bf5b/Go8rxniXx9BCrjxu_AYV0.jpg",
     inlineImages: [],
     referenceUrl: "https://guarda.com/",
     articleText: `
@@ -117,14 +117,11 @@ export const fallbackPosts: BlogPost[] = [
 <li>Keeping a single backup in one physical location.</li>
 </ul>
 <p>A small amount of caution goes much further than chasing the newest “most secure” wallet on the market.</p>
-<p><img alt="Diagram showing hot wallet, cold wallet, and exchange storage flow" src="/path/to/wallet-types.jpg" /></p>
+<p><img alt="Diagram showing hot wallet, cold wallet, and exchange storage flow" src="/images/wallet-types.jpg" /></p>
 <h2 id="final-thoughts">Final Thoughts</h2>
 <p>Choosing a crypto wallet is really about choosing a security model. If you value convenience and are willing to trust a platform, a custodial exchange wallet may work. If you want full control and are ready to protect your own backups, a non-custodial hardware or mobile wallet is a better fit.</p>
 <p>There is no universal winner. The safest approach is often to split funds: keep a small amount in a hot wallet for transactions and move the rest to cold storage. Start with modest amounts, test your recovery process, and never share your seed phrase with anyone.</p>
-<p><img alt="Image of a hardware wallet device with a recovery seed card" src="/path/to/hardware-wallet.jpg" /></p>
-    `
-  },
-  {
+<p><img alt="Image of a hardware wallet device with a recovery seed card" src="/path/to/h{
     slug: "choose-crypto-wallet-guide",
     title: "Crypto Wallet Guide: Choose the Right One",
     description: "Digital assets have moved from niche experiments to mainstream financial tools. Whether you are buying your first satoshi, receiving stablecoin payments, or man",
@@ -133,7 +130,8 @@ export const fallbackPosts: BlogPost[] = [
     category: "General",
     tags: [],
     featured: false,
-    heroImage: "/assets/archive-grid.svg",
+    heroImage: "https://v3b.fal.media/files/b/0aa0bf5b/pagM-ngiX3gjJosqatK_X.jpg",
+    inlineImages:ets/archive-grid.svg",
     inlineImages: [],
     referenceUrl: "https://guarda.com/",
     articleText: `
@@ -224,10 +222,7 @@ export const fallbackPosts: BlogPost[] = [
 <p><img alt="Wallet backup and security checklist" src="/images/wallet-security.jpg" /></p>
 <h2 id="finding-the-wallet-that-fits-your-routine">Finding the Wallet That Fits Your Routine</h2>
 <p>Your ideal wallet depends on what you plan to do with your digital assets. If you want quick access for small payments or frequent trades, a reputable hot wallet is usually the right starting point. If your goal is to protect a long-term position, the upfront cost of a hardware wallet is often worth the peace of mind.</p>
-<p>Start with a clear use case, test the wallet with a small amount first, and always verify your backup process before moving larger sums. The best crypto wallet is not the one with the most features; it is the one you can use confidently and securely.</p>
-    `
-  },
-  {
+<p>Start with a clear use case, test the wallet with a small amount first, and always verify your backup process before moving larger sums. The best crypto wallet is not the one with the most{
     slug: "choosing-crypto-exchange",
     title: "Choosing the Best Crypto Exchange: A Practical Guide",
     description: "The crypto market is more accessible than ever, but that accessibility brings a new challenge: picking the right place to trade. Whether you are buying your fir",
@@ -236,6 +231,8 @@ export const fallbackPosts: BlogPost[] = [
     category: "General",
     tags: [],
     featured: false,
+    heroImage: "https://v3b.fal.media/files/b/0aa0bf5c/kJ_D1casjBvQqUJz-O_JS.jpg",
+    inlineImages:   featured: false,
     heroImage: "/assets/archive-grid.svg",
     inlineImages: [],
     referenceUrl: "https://swapzone.io/",
@@ -399,18 +396,17 @@ export const fallbackPosts: BlogPost[] = [
 </table>
 <p><img alt="Hardware wallet connected to a laptop for secure crypto storage" src="/assets/images/hardware-wallet-setup.jpg" /></p>
 <p>Keep records of every trade, deposit, and withdrawal. Tax rules vary by country, but accurate logs make reporting far simpler at the end of the year.</p>
-<p>Choosing where to trade is a personal decision shaped by your goals, location, and risk tolerance. There is no single platform that fits everyone, but the right choice always shares a few qualities: transparent fees, strong security, good liquidity, and a user experience that matches your skill level. Take your time, compare carefully, and never deposit more than you can afford to lose.</p>
-    `
-  },
-  
-  
-  {
+<p>Choosing where to trade is a personal decision shaped by your goals, location, and risk tolerance. There is no single platform that fits everyone, but the right choice always shares a few qualities: transparent fees, strong security, good liquidity, and a user experience that matches your ski{
     slug: "how-to-accept-crypto-payments-on-your-website-in-2024",
     title: "How to Accept Crypto Payments on Your Website in 2024",
     description: "https://stripe.com/resources/more/how-to-accept-crypto-payments",
     pubDate: "2026-07-02",
     author: "Team",
     category: "General",
+    tags: [],
+    featured: false,
+    heroImage: "https://v3b.fal.media/files/b/0aa0bf5c/3N6hDflCSz6-oEhPWM-aL.jpg",
+    inlineImages:    category: "General",
     tags: [],
     featured: false,
     heroImage: "/assets/archive-grid.svg",
@@ -473,11 +469,7 @@ how-to-accept-crypto-payments-on-website</p>
 <hr />
 <p><strong>Notes about images or internal links:</strong><br />
 - Insert a screenshot or mockup of a crypto checkout widget between the "Step-by-Step Implementation" and "Managing Risk and Compliance" sections to improve readability and dwell time.<br />
-- If cheemsarena.com has existing content on e-commerce trends or digital wallets, add an internal link from the phrase "modern payment rail" or "self-custody wallets" in the introduction to strengthen topical authority.<br />
-- Keep the outbound link to nowpayments.io as the only affiliate-style link in the article to preserve link equity.</p>
-    `
-  },
-  {
+- If cheemsarena.com has existing content on e-commerce trends or digital wallets, add an internal link from the phrase "modern payment rail" or "self-custody wallets" in the introduction to strengthe{
     slug: "why-solana-is-the-best-chain-for-trading-card-games",
     title: "Why Solana Is the Best Chain for Trading Card Games",
     description:
@@ -487,15 +479,16 @@ how-to-accept-crypto-payments-on-website</p>
     category: "Blockchain",
     tags: ["Solana", "NFTs", "TCG"],
     featured: true,
+    heroImage: "https://v3b.fal.media/files/b/0aa0bf5c/QSAsV888uVGUF8TVBFRuB.jpg",
+    inlineImages:s Arena Team",
+    category: "Blockchain",
+    tags: ["Solana", "NFTs", "TCG"],
+    featured: true,
     heroImage: "/assets/archive-grid.svg",
     inlineImages: ["/assets/identity-shield.svg", "/assets/wallet-ledger.svg"],
     articleText: `
       <p>Trading card games live and die on speed. When a player opens a pack, trades a card, or enters a match, every second of latency kills the mood. Solana solves this with sub-second finality and transaction costs measured in fractions of a cent.</p>
-      <p>Cheems Arena was built on Solana because real ownership should not feel slow. Every card is an NFT that players can list on the marketplace instantly, trade peer-to-peer, or hold as a collectible without worrying about gas fees eating their profits.</p>
-      <p>The next generation of blockchain games will not compromise on gameplay for decentralization. Solana proves you can have both.</p>
-    `
-  },
-  {
+      <p>Cheems Arena was built on Solana because real ownership should not feel slow. Every card is an NFT that players can list on the marketplace instantly, trade peer-to-peer, or hold as a collectible without wor{
     slug: "card-rarities-and-the-economy-of-the-cheemsrealm",
     title: "Card Rarities and the Economy of the Cheemsrealm",
     description:
@@ -504,15 +497,17 @@ how-to-accept-crypto-payments-on-website</p>
     author: "Cheems Arena Team",
     category: "Gaming",
     tags: ["Rarity", "Economy", "Cards"],
+    heroImage: "https://v3b.fal.media/files/b/0aa0bf5c/THzkXti1ZukPfN41hc87s.jpg",
+    inlineImages:e dynamics.",
+    pubDate: "2026-05-15",
+    author: "Cheems Arena Team",
+    category: "Gaming",
+    tags: ["Rarity", "Economy", "Cards"],
     heroImage: "/assets/archive-grid.svg",
     inlineImages: ["/assets/identity-shield.svg", "/assets/wallet-ledger.svg"],
     articleText: `
       <p>In Cheems Arena, rarity is not just a label — it is an economic layer. Common cards form the backbone of every deck, accessible and reliable. Rare cards introduce unique mechanics that shift battle outcomes. Epic cards carry lore and power that define playstyles. Legendary cards are the crown jewels, scarce enough to drive marketplace demand and tournament prestige.</p>
-      <p>Each Cheemy pack contains five cards with drop rates calibrated to sustain a healthy secondary market. Players who understand the rarity curve can build competitive decks without chasing Legendaries, while collectors who hunt the rarest drops find real value in their holdings.</p>
-      <p>The economy of the Cheemsrealm rewards both skill and strategy. Knowing when to hold, trade, or play a card is as important as knowing its stats.</p>
-    `
-  },
-  {
+      <p>Each Cheemy pack contains five cards with drop rates calibrated to sustain a healthy secondary market. Players who understand the rarity curve can build competitive decks without chasing Legendaries, while collecto{
     slug: "from-meme-to-marketplace-how-cheems-built-an-arena",
     title: "From Meme to Marketplace: How Cheems Built an Arena",
     description:
@@ -521,19 +516,27 @@ how-to-accept-crypto-payments-on-website</p>
     author: "Cheems Arena Team",
     category: "Culture",
     tags: ["Memes", "Cheems", "NFT Gaming"],
+    heroImage: "https://v3b.fal.media/files/b/0aa0bf5c/hg_57_6SQ12AI66hI0kbU.jpg",
+    inlineImages: real NFT ownership and play-to-earn mechanics.",
+    pubDate: "2026-05-14",
+    author: "Cheems Arena Team",
+    category: "Culture",
+    tags: ["Memes", "Cheems", "NFT Gaming"],
     heroImage: "/assets/archive-grid.svg",
     inlineImages: ["/assets/identity-shield.svg", "/assets/wallet-ledger.svg"],
     articleText: `
       <p>Cheems started as a meme. The slightly confused Shiba Inu with a speech impediment became a symbol of internet culture — relatable, absurd, and impossible to ignore. But memes that survive evolve, and Cheems evolved into something with stakes.</p>
-      <p>Cheems Arena takes the spirit of the meme and gives it structure: a trading card game where the Shiba ancients carved the arena from stone and marble, where players battle across five elements, and where every card is a real asset on Solana.</p>
-      <p>The best crypto-native projects do not abandon their meme roots — they build on them. Cheems Arena is proof that a meme can become a marketplace, a battleground, and a community all at once.</p>
-    `
-  },
-  {
+      <p>Cheems Arena takes the spirit of the meme and gives it structure: a trading card game where the Shiba ancients carved the arena from stone and marble, where players battle across five{
     slug: "the-rise-of-meme-powered-gaming-why-cheems-arena-is-different",
     title: "The Rise of Meme-Powered Gaming: Why Cheems Arena Is Different",
     description:
       "How meme culture, real NFT ownership, and sustainable play-to-earn mechanics converge in Cheems Arena to create a new breed of blockchain trading card game.",
+    pubDate: "2026-05-20",
+    author: "Cheems Arena Team",
+    category: "Gaming",
+    tags: ["Memes", "NFT Gaming", "Play-to-Earn", "Solana"],
+    heroImage: "https://v3b.fal.media/files/b/0aa0bf5c/7ql4V3I6TermfciLBo4rD.jpg",
+    inlineImages:e in Cheems Arena to create a new breed of blockchain trading card game.",
     pubDate: "2026-05-20",
     author: "Cheems Arena Team",
     category: "Gaming",
