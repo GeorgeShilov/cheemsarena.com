@@ -23,7 +23,7 @@ export const fallbackPosts: BlogPost[] = [
     category: "General",
     tags: [],
     featured: false,
-    heroImage: "/assets/archive-grid.svg",
+    heroImage: "https://v3b.fal.media/files/b/0aa0bfcf/mvPHish8XiPoIjCL1W_vM.jpg",
     inlineImages: [],
     referenceUrl: "https://guarda.com/",
     articleText: `
@@ -133,7 +133,7 @@ export const fallbackPosts: BlogPost[] = [
     category: "General",
     tags: [],
     featured: false,
-    heroImage: "/assets/archive-grid.svg",
+    heroImage: "https://v3b.fal.media/files/b/0aa0bfcf/PD9tYMX44ujFGtXkY47lQ.jpg",
     inlineImages: [],
     referenceUrl: "https://guarda.com/",
     articleText: `
@@ -236,7 +236,7 @@ export const fallbackPosts: BlogPost[] = [
     category: "General",
     tags: [],
     featured: false,
-    heroImage: "/assets/archive-grid.svg",
+    heroImage: "https://v3b.fal.media/files/b/0aa0bfd0/PfAagOaDzetV0ZFcO2ZQI.jpg",
     inlineImages: [],
     referenceUrl: "https://swapzone.io/",
     articleText: `
@@ -413,7 +413,7 @@ export const fallbackPosts: BlogPost[] = [
     category: "General",
     tags: [],
     featured: false,
-    heroImage: "/assets/archive-grid.svg",
+    heroImage: "https://v3b.fal.media/files/b/0aa0bfd0/PoF4R1qI8mRqDQjzsfCxn.jpg",
     inlineImages: [],
     referenceUrl: "https://nowpayments.io/",
     articleText: `
@@ -487,7 +487,7 @@ how-to-accept-crypto-payments-on-website</p>
     category: "Blockchain",
     tags: ["Solana", "NFTs", "TCG"],
     featured: true,
-    heroImage: "/assets/archive-grid.svg",
+    heroImage: "https://v3b.fal.media/files/b/0aa0bfd0/CwIimoUCrmpPtxyBoUOIQ.jpg",
     inlineImages: ["/assets/identity-shield.svg", "/assets/wallet-ledger.svg"],
     articleText: `
       <p>Trading card games live and die on speed. When a player opens a pack, trades a card, or enters a match, every second of latency kills the mood. Solana solves this with sub-second finality and transaction costs measured in fractions of a cent.</p>
@@ -504,7 +504,7 @@ how-to-accept-crypto-payments-on-website</p>
     author: "Cheems Arena Team",
     category: "Gaming",
     tags: ["Rarity", "Economy", "Cards"],
-    heroImage: "/assets/archive-grid.svg",
+    heroImage: "https://v3b.fal.media/files/b/0aa0bfd0/3CCJ7LPkjy9sFRh4wRhPj.jpg",
     inlineImages: ["/assets/identity-shield.svg", "/assets/wallet-ledger.svg"],
     articleText: `
       <p>In Cheems Arena, rarity is not just a label — it is an economic layer. Common cards form the backbone of every deck, accessible and reliable. Rare cards introduce unique mechanics that shift battle outcomes. Epic cards carry lore and power that define playstyles. Legendary cards are the crown jewels, scarce enough to drive marketplace demand and tournament prestige.</p>
@@ -521,7 +521,7 @@ how-to-accept-crypto-payments-on-website</p>
     author: "Cheems Arena Team",
     category: "Culture",
     tags: ["Memes", "Cheems", "NFT Gaming"],
-    heroImage: "/assets/archive-grid.svg",
+    heroImage: "https://v3b.fal.media/files/b/0aa0bfd0/Ge4lLtRGJbpMpV_-jVDCF.jpg",
     inlineImages: ["/assets/identity-shield.svg", "/assets/wallet-ledger.svg"],
     articleText: `
       <p>Cheems started as a meme. The slightly confused Shiba Inu with a speech impediment became a symbol of internet culture — relatable, absurd, and impossible to ignore. But memes that survive evolve, and Cheems evolved into something with stakes.</p>
@@ -538,7 +538,7 @@ how-to-accept-crypto-payments-on-website</p>
     author: "Cheems Arena Team",
     category: "Gaming",
     tags: ["Memes", "NFT Gaming", "Play-to-Earn", "Solana"],
-    heroImage: "/assets/archive-grid.svg",
+    heroImage: "https://v3b.fal.media/files/b/0aa0bfd1/U0juR7OkIBuD-WTaepI2q.jpg",
     inlineImages: ["/assets/identity-shield.svg", "/assets/wallet-ledger.svg"],
     articleText: `
       <p>Meme culture has always been the heartbeat of the internet. From the early days of imageboards to the viral explosion of TikTok, memes are how communities communicate, criticize, and celebrate the absurdity of modern life. But for years, memes remained trapped in the realm of entertainment—ephemeral jokes that faded as quickly as they appeared. Cheems Arena changes that equation by turning meme culture into a persistent, playable, and economically meaningful experience. This is not a game that simply uses memes as a visual gimmick; it is a game built on the very principles that make memes powerful: relatability, community ownership, and the ability to spread like wildfire.</p>
